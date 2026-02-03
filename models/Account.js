@@ -8,6 +8,7 @@ const accountSchema = new mongoose.Schema({
     isKYCVerified: Boolean
 });
 
+
 module.exports = mongoose.model("Account", accountSchema);
 
 
